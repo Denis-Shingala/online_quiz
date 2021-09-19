@@ -135,8 +135,8 @@ if (isset($_POST['login'])) {
         background-image: linear-gradient(222deg, #D9AFD9 0%, #97D9E1 100%);
         box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 gray;
         color: #042A38;
-        width: 400px;
-        padding: 2vw;
+        width: 40vh;
+        padding: 30px;
         font-weight: bolder;
         margin-top: 30px;
         border-radius: 10px;
