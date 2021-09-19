@@ -161,7 +161,7 @@ if (isset($_POST['login'])) {
             <img class="img-fluid" src="../images/logo.png" alt="image" height="100" width="150">
         </center>
         <center>
-            <div class="w3-card login">
+            <div class="form login">
                 <form action="login.php" method="POST">
                     <div class="form-check form-check-inline seluser">
                         <input class="form-check-input" type="radio" name="usertype" id="inlineRadio1" value="student">
