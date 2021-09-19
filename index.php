@@ -24,6 +24,11 @@ session_destroy();
         body {
             animation: top_bottom 1s;
         }
+        @media only screen and (max-width:500px){
+            .img-fluid{
+                  display:none;
+            }
+        }
     </style>
     <title>iQuiz</title>
 </head>
