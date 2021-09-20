@@ -110,15 +110,8 @@ if (isset($_POST['login'])) {
     ::placeholder {
         font-family: initial;
     }
-
-    label {
-        font-weight: bolder;
-        font-size: 1.5vw;
-    }
-
-    form {
-        font-size: 1.5vw;
-        margin: 0;
+    input{
+        backdrop-filter: blur(20px);
     }
 
     button:hover {
@@ -135,13 +128,24 @@ if (isset($_POST['login'])) {
         background-image: linear-gradient(222deg, #D9AFD9 0%, #97D9E1 100%);
         box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 gray;
         color: #042A38;
-        width: 40vw;
+        width : 500px;
         padding: 2vw;
         font-weight: bolder;
-        margin-top: 30px;
+        margin-top: 1%;
+        margin-bottom: 10px;
         border-radius: 10px;
         padding: top 15px;
         padding: bottom 15px;
+    }
+    @media only screen and (max-width:750px){
+        .login{
+            width: 350px;
+        }
+    }
+    @media only screen and (max-width:350px){
+        .login{
+            width: 300px;
+        }
     }
 </style>
 
@@ -161,7 +165,7 @@ if (isset($_POST['login'])) {
             <img class="img-fluid" src="../images/logo.png" alt="image" height="100" width="150">
         </center>
         <center>
-            <div class="w3-card login">
+            <div class="login">
                 <form action="login.php" method="POST">
                     <div class="form-check form-check-inline seluser">
                         <input class="form-check-input" type="radio" name="usertype" id="inlineRadio1" value="student">
@@ -173,13 +177,15 @@ if (isset($_POST['login'])) {
                     </div><br>
                     <hr>
 
-                    <label for="username" style="text-transform:uppercase;">E-mail</label><br><br>
-                    <input type="email" name="username" placeholder=" Email" class="inp" required>
+                    <label for="username" class="form-label" style="text-transform:uppercase;">E-mail</label>
+                    <input class="form-control" type="email" name="username" placeholder=" Email" class="inp" required>
                     <br><br>
-                    <label for="password" style="text-transform: uppercase;">Password</label><br><br>
-                    <input type="password" name="pass" placeholder="******" class="inp" required>
+                    <label for="password" class="form-label" style="text-transform: uppercase;">Password</label>
+                    <input class="form-control" type="password" name="pass" placeholder="******" class="inp" required>
                     <br><br>
-                    <input name="login" class="sub" type="submit" value="Login"><br>
+                    <div class="d-grid gap-2">
+                    <input class="btn btn-success" name="login" class="sub" type="submit" value="Login">
+                    </div>
                 </form><br>
                 New user!&nbsp;&nbsp;<a href="signup.php">SIGN UP</a>
             </div>
