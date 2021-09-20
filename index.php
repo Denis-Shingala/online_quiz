@@ -26,7 +26,7 @@ session_destroy();
         }
         @media only screen and (max-width:500px){
             .img-fluid{
-                  display:none;
+                  margin-bottom:15px;
             }
         }
     </style>
