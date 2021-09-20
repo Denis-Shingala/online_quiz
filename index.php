@@ -24,9 +24,9 @@ session_destroy();
         body {
             animation: top_bottom 1s;
         }
-        @media only screen and (max-width:500px){
+        @media only screen and (max-width:710px){
             .img-fluid{
-                  margin-bottom:15px;
+                  margin-bottom:30px;
             }
         }
     </style>
