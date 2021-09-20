@@ -135,8 +135,8 @@ if (isset($_POST['login'])) {
         background-image: linear-gradient(222deg, #D9AFD9 0%, #97D9E1 100%);
         box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 gray;
         color: #042A38;
-        width: 40vh;
-        padding: 30px;
+        width: 40vw;
+        padding: 2vw;
         font-weight: bolder;
         margin-top: 30px;
         border-radius: 10px;
@@ -161,7 +161,7 @@ if (isset($_POST['login'])) {
             <img class="img-fluid" src="../images/logo.png" alt="image" height="100" width="150">
         </center>
         <center>
-            <div class="form login">
+            <div class="w3-card login">
                 <form action="login.php" method="POST">
                     <div class="form-check form-check-inline seluser">
                         <input class="form-check-input" type="radio" name="usertype" id="inlineRadio1" value="student">
