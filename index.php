@@ -68,6 +68,13 @@ session_destroy();
         </div>
         <img class="img-fluid" src="./images/image.png" alt="image" height="450" width="450">
     </div>
+ 
+<footer class="page-footer font-small dark">
+
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+</footer>
 </body>
 
 </html>
