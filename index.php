@@ -69,7 +69,7 @@ session_destroy();
         <img class="img-fluid" src="./images/image.png" alt="image" height="450" width="450">
     </div>
  
-<footer class="page-footer font-small special-color-dark">
+<footer style="backdrop-filter: blur(2px);">
 
   <div class="footer-copyright text-center py-3">© 2021 Copyright:
     <a href="https://iquiztest.herokuapp.com/">iQuiz</a>
