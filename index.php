@@ -71,8 +71,8 @@ session_destroy();
  
 <footer class="page-footer font-small dark">
 
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+    <a href="https://iquiztest.herokuapp.com/">iQuiz</a>
   </div>
 </footer>
 </body>
